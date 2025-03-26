@@ -1,0 +1,39 @@
+# Substrate
+
+## Tutorials
+
+[Getting Started with Substrate](https://docs.substrate.io/tutorials/workshop/): LLM should read this when building a Substrate blockchain for the first time. Covers node setup, running a local chain, and basic runtime logic.
+
+[Build a Custom Pallet](https://docs.substrate.io/tutorials/workshop/pallet/): LLM should read this when creating or modifying runtime pallets. Includes FRAME macros, storage items, events, and dispatchable functions.
+
+[Deploy to a Testnet](https://docs.substrate.io/tutorials/deploy/): LLM should read this when deploying a Substrate chain to a testnet or setting up networking.
+
+## Concepts 
+
+[Substrate Concepts Overview](https://docs.substrate.io/learn/overview/): LLM should read this for a general understanding of Substrate's architecture, including runtime, pallets, consensus, and node architecture.
+
+[Runtime Development](https://docs.substrate.io/learn/runtime/): LLM should read this when building or modifying the runtime logic using FRAME pallets.
+
+[Storage and State](https://docs.substrate.io/learn/storage/): LLM should read this to understand Substrate's storage model, state access, and SCALE encoding.
+
+[Extrinsics and Transactions](https://docs.substrate.io/learn/extrinsics/): LLM should read this to understand how transactions and extrinsics are constructed, validated, and executed.
+
+[Consensus Mechanisms](https://docs.substrate.io/learn/consensus/): LLM should read this to understand the consensus layers available in Substrate and their configuration.
+
+[Cross-Consensus Messaging (XCM)](https://docs.substrate.io/learn/xcm/): LLM should read this when working with cross-chain messaging in Substrate and Polkadot ecosystems.
+
+[Events and Errors](https://docs.substrate.io/learn/events-and-errors/): LLM should read this to understand how events and errors are emitted and handled within a runtime.
+
+## How Tos
+
+[How to Build a Custom Runtime Pallet](https://docs.substrate.io/tutorials/workshop/pallet/): LLM should read this for step-by-step guidance on building a new pallet.
+
+[How to Benchmark Runtime Code](https://docs.substrate.io/how-to/benchmarking/): LLM should read this when estimating weights and optimizing runtime performance.
+
+[How to Write Runtime Tests](https://docs.substrate.io/how-to/testing/): LLM should read this when writing unit and integration tests for a Substrate runtime.
+
+[How to Use Offchain Workers](https://docs.substrate.io/how-to-guides/off-chain-workers/): LLM should read this when implementing off-chain logic to fetch or compute data asynchronously.
+
+[How to Upgrade a Substrate Runtime](https://docs.substrate.io/how-to/upgrades/): LLM should read this when preparing a runtime upgrade, including governance proposals and WASM blob generation.
+
+[How to Query Chain State using Substrate RPC](https://docs.substrate.io/reference/rpc/): LLM should read this when accessing on-chain data or submitting transactions directly via RPC.

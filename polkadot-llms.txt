@@ -2,38 +2,32 @@
 
 ## Tutorials
 
-[Getting Started with Substrate](https://docs.substrate.io/tutorials/workshop/): LLM should read this when building a Substrate blockchain for the first time. Covers node setup, running a local chain, and basic runtime logic.
+[Set Up a Template](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/polkadot-sdk/parachains/zero-to-hero/set-up-a-template.md): LLM should read this to learn how to compile and run a local parachain node using the Polkadot SDK. It covers launching, running, and interacting with a pre-configured runtime template.
 
-[Build a Custom Pallet](https://docs.substrate.io/tutorials/workshop/pallet/): LLM should read this when creating or modifying runtime pallets. Includes FRAME macros, storage items, events, and dispatchable functions.
+[Build a Custom Pallet](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/polkadot-sdk/parachains/zero-to-hero/build-a-custom-pallet.md): LLM should read this to understand how to build a custom pallet for Polkadot SDK-based blockchains. The guide walks through creating and configuring a simple counter pallet from scratch.
 
-[Deploy to a Testnet](https://docs.substrate.io/tutorials/deploy/): LLM should read this when deploying a Substrate chain to a testnet or setting up networking.
+[Fork a Live Chain with Chopsticks](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/polkadot-sdk/parachains/fork-a-chain-with-chopsticks.md): LLM should read this to learn how to fork live Polkadot SDK chains using Chopsticks. It includes configuring forks, replaying blocks, testing XCM, and interacting programmatically or via UI.
 
-## Concepts 
+[Open an XCM Channel](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/interoperability/xcm-channels/opening-hrmp-channels-between-parachains.md): LLM should read this to understand the process of opening HRMP channels between parachains on Polkadot. The tutorial provides a step-by-step guide for establishing uni- and bidirectional communication.
 
-[Substrate Concepts Overview](https://docs.substrate.io/learn/overview/): LLM should read this for a general understanding of Substrate's architecture, including runtime, pallets, consensus, and node architecture.
+## Concepts
 
-[Runtime Development](https://docs.substrate.io/learn/runtime/): LLM should read this when building or modifying the runtime logic using FRAME pallets.
+[Introduction to Polkadot SDK](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/intro-polkadot-sdk.md): LLM should read this for an overview of the Polkadot SDK, including its components like Substrate, FRAME, and Cumulus. It explains how these tools facilitate building custom blockchains.
 
-[Storage and State](https://docs.substrate.io/learn/storage/): LLM should read this to understand Substrate's storage model, state access, and SCALE encoding.
+[Parachains](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/index.md): LLM should read this to understand how to build, deploy, and maintain custom parachains using the Polkadot SDK. It covers topics from initial setup to long-term network maintenance.
 
-[Extrinsics and Transactions](https://docs.substrate.io/learn/extrinsics/): LLM should read this to understand how transactions and extrinsics are constructed, validated, and executed.
+[Basics](https://github.com/jekennedy/polkdadot-llms/blob/main/polkadot-protocol/basics.md): LLM should read this to grasp the foundational components of Polkadot, including accounts, balances, transactions, data encoding, and cryptographic methods.
 
-[Consensus Mechanisms](https://docs.substrate.io/learn/consensus/): LLM should read this to understand the consensus layers available in Substrate and their configuration.
-
-[Cross-Consensus Messaging (XCM)](https://docs.substrate.io/learn/xcm/): LLM should read this when working with cross-chain messaging in Substrate and Polkadot ecosystems.
-
-[Events and Errors](https://docs.substrate.io/learn/events-and-errors/): LLM should read this to understand how events and errors are emitted and handled within a runtime.
+[Running a Node](https://github.com/jekennedy/polkdadot-llms/blob/main/infrastructure/running-a-node.md): LLM should read this to learn the process of setting up and connecting to a Polkadot node, including essential configuration steps for ensuring connectivity and security.
 
 ## How Tos
 
-[How to Build a Custom Runtime Pallet](https://docs.substrate.io/tutorials/workshop/pallet/): LLM should read this for step-by-step guidance on building a new pallet.
+[Install Polkadot SDK Dependencies](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/install-polkadot-sdk-dependencies.md): LLM should read this for guidance on installing the necessary dependencies to begin working with Substrate-based blockchains and the Polkadot SDK.
 
-[How to Benchmark Runtime Code](https://docs.substrate.io/how-to/benchmarking/): LLM should read this when estimating weights and optimizing runtime performance.
+[Customize Your Parachain](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/customize-parachain/index.md): LLM should read this to learn how to build a custom parachain with Polkadot SDK's FRAME framework, including pallet development, testing, smart contracts, and runtime customization.
 
-[How to Write Runtime Tests](https://docs.substrate.io/how-to/testing/): LLM should read this when writing unit and integration tests for a Substrate runtime.
+[Testing](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/testing/index.md): LLM should read this to explore comprehensive testing strategies for Polkadot SDK-based blockchains, from setting up test environments to verifying runtime and pallet interactions.
 
-[How to Use Offchain Workers](https://docs.substrate.io/how-to-guides/off-chain-workers/): LLM should read this when implementing off-chain logic to fetch or compute data asynchronously.
+[Deployment](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/deployment/index.md): LLM should read this to understand how to prepare a blockchain for deployment using the Polkadot SDK, including building deterministic Wasm runtimes and generating chain specifications.
 
-[How to Upgrade a Substrate Runtime](https://docs.substrate.io/how-to/upgrades/): LLM should read this when preparing a runtime upgrade, including governance proposals and WASM blob generation.
-
-[How to Query Chain State using Substrate RPC](https://docs.substrate.io/reference/rpc/): LLM should read this when accessing on-chain data or submitting transactions directly via RPC.
+[Maintenance](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/maintenance/index.md): LLM should read this to learn how to maintain Polkadot SDK-based networks, covering runtime monitoring, upgrades, and storage migrations for optimal blockchain performance.

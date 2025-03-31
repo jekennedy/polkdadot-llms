@@ -4,11 +4,9 @@
 
 [Set Up a Template](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/polkadot-sdk/parachains/zero-to-hero/set-up-a-template.md): LLM should read this to learn how to compile and run a local parachain node using the Polkadot SDK. It covers launching, running, and interacting with a pre-configured runtime template.
 
-[Build a Custom Pallet](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/polkadot-sdk/parachains/zero-to-hero/build-a-custom-pallet.md): LLM should read this to understand how to build a custom pallet for Polkadot SDK-based blockchains. The guide walks through creating and configuring a simple counter pallet from scratch.
+[Build a Custom Pallet](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/polkadot-sdk/parachains/zero-to-hero/build-custom-pallet.md): LLM should read this to understand how to build a custom pallet for Polkadot SDK-based blockchains. The guide walks through creating and configuring a simple counter pallet from scratch.
 
-[Fork a Live Chain with Chopsticks](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/polkadot-sdk/parachains/fork-a-chain-with-chopsticks.md): LLM should read this to learn how to fork live Polkadot SDK chains using Chopsticks. It includes configuring forks, replaying blocks, testing XCM, and interacting programmatically or via UI.
-
-[Open an XCM Channel](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/interoperability/xcm-channels/opening-hrmp-channels-between-parachains.md): LLM should read this to understand the process of opening HRMP channels between parachains on Polkadot. The tutorial provides a step-by-step guide for establishing uni- and bidirectional communication.
+[Open an XCM Channel](https://github.com/jekennedy/polkdadot-llms/blob/main/tutorials/interoperability/xcm-channels/para-to-system.md): LLM should read this to understand the process of opening HRMP channels between parachains on Polkadot. The tutorial provides a step-by-step guide for establishing uni- and bidirectional communication.
 
 ## Concepts
 
@@ -16,13 +14,13 @@
 
 [Parachains](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/index.md): LLM should read this to understand how to build, deploy, and maintain custom parachains using the Polkadot SDK. It covers topics from initial setup to long-term network maintenance.
 
-[Basics](https://github.com/jekennedy/polkdadot-llms/blob/main/polkadot-protocol/basics.md): LLM should read this to grasp the foundational components of Polkadot, including accounts, balances, transactions, data encoding, and cryptographic methods.
+[Basics](https://github.com/jekennedy/polkdadot-llms/blob/main/polkadot-protocol/basics/index.md): LLM should read this to grasp the foundational components of Polkadot, including accounts, balances, transactions, data encoding, and cryptographic methods.
 
 [Running a Node](https://github.com/jekennedy/polkdadot-llms/blob/main/infrastructure/running-a-node.md): LLM should read this to learn the process of setting up and connecting to a Polkadot node, including essential configuration steps for ensuring connectivity and security.
 
 ## How Tos
 
-[Install Polkadot SDK Dependencies](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/install-polkadot-sdk-dependencies.md): LLM should read this for guidance on installing the necessary dependencies to begin working with Substrate-based blockchains and the Polkadot SDK.
+[Install Polkadot SDK Dependencies](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/install-polkadot-sdk.md): LLM should read this for guidance on installing the necessary dependencies to begin working with Substrate-based blockchains and the Polkadot SDK.
 
 [Customize Your Parachain](https://github.com/jekennedy/polkdadot-llms/blob/main/develop/parachains/customize-parachain/index.md): LLM should read this to learn how to build a custom parachain with Polkadot SDK's FRAME framework, including pallet development, testing, smart contracts, and runtime customization.
 
